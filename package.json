@@ -1,15 +1,18 @@
 {
   "publisher": "lokalise",
   "name": "i18n-ally",
-  "version": "2.13.1",
-  "displayName": "i18n Ally",
+  "version": "3.13.1",
+  "displayName": "flutter i18n Ally",
   "description": "🌍 All in one i18n extension for VS Code",
   "keywords": [
     "vue",
     "vue-i18n",
     "translate",
     "i18n",
-    "i18next"
+    "i18next",
+    "flutter",
+    "getx",
+    "dart"
   ],
   "repository": {
     "type": "git",
@@ -817,6 +820,7 @@
               "i18next-shopify",
               "i18n-tag",
               "flutter",
+              "flutter-getx",
               "vue-sfc",
               "ember",
               "chrome-ext",
@@ -994,7 +998,8 @@
                   "html-inline",
                   "js-string",
                   "js-template",
-                  "jsx-text"
+                  "jsx-text",
+                  "dart-string"
                 ]
               },
               "template": {

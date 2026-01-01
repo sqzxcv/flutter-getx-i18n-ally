@@ -14,6 +14,7 @@ import NgxTranslateFramework from './ngx-translate'
 import I18nTagFramework from './i18n-tag'
 import VueSFCFramework from './vue-sfc'
 import FlutterFramework from './flutter'
+import FlutterGetXFramework from './flutter-getx'
 import EmberFramework from './ember'
 import CustomFramework from './custom'
 import PhpJoomlaFramework from './php-joomla'
@@ -47,6 +48,7 @@ export const frameworks: Framework[] = [
   new NgxTranslateFramework(),
   new VSCodeFramework(),
   new FlutterFramework(),
+  new FlutterGetXFramework(),
   new EmberFramework(),
   new I18nextFramework(),
   new ShopifyI18nextFramework(),
