@@ -1,9 +1,9 @@
 {
-  "publisher": "lokalise",
-  "name": "i18n-ally",
-  "version": "3.13.1",
-  "displayName": "flutter i18n Ally",
-  "description": "🌍 All in one i18n extension for VS Code",
+  "publisher": "sqzxcv",
+  "name": "flutter-getx-i18n-ally",
+  "version": "3.13.3",
+  "displayName": "flutter GetX i18n Ally",
+  "description": "🌍 All in one i18n extension for VS Code, used for flutter GetX",
   "keywords": [
     "vue",
     "vue-i18n",
