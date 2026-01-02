@@ -43,7 +43,7 @@
   "config.deepl_log": "DeepL sisteminin hata ayıklama kayıtlarını göster",
   "config.deepl_use_free_api_entry": "DeepL'in Bedava API giriş noktasını kullanın",
   "config.default_namespace": "Global varsayılan namespace",
-  "config.deprecated": "Kullanımdan kaldırıldı. Yerine \"i18n-ally.\" ön ekini kullanın.",
+  "config.deprecated": "Kullanımdan kaldırıldı. Yerine \"flutter-getx-i18n-ally.\" ön ekini kullanın.",
   "config.derived_keys": "Kullanım raporunda türetilmiş çevirileri işaretleme kuralları",
   "config.dir_structure": "Çeviri dosyalarını düzenlemek için tercih edilen dizin yapısı",
   "config.disable_path_parsing": "Dosya çözünürlüğünü devre dışı bırak",

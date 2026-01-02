@@ -43,7 +43,7 @@
   "config.deepl_log": "DeepL debug logs anzeigen",
   "config.deepl_use_free_api_entry": "Kostenlose DeepL Version benutzen",
   "config.default_namespace": "Globaler Namespace",
-  "config.deprecated": "Veraltet. \"i18n-ally.\" prefix benutzen.",
+  "config.deprecated": "Veraltet. \"flutter-getx-i18n-ally.\" prefix benutzen.",
   "config.derived_keys": "Markierungsregelen im Bericht für abgeleitete Schlüssel",
   "config.dir_structure": "Bevorzugte Ordnerstruktur der Lokalisierungsdateien",
   "config.disable_path_parsing": "Pfadauflösung deaktivieren",

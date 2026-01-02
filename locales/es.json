@@ -43,7 +43,7 @@
   "config.deepl_log": "Mostrar mensajes de depuración del motor DeepL",
   "config.deepl_use_free_api_entry": "",
   "config.default_namespace": "",
-  "config.deprecated": "Obsoleto. En su lugar, utilice el prefijo \"i18n-ally.\".",
+  "config.deprecated": "Obsoleto. En su lugar, utilice el prefijo \"flutter-getx-i18n-ally.\".",
   "config.derived_keys": "Reglas para marcar claves derivadas en el informe de uso",
   "config.dir_structure": "Estructura de directorios preferida para organizar los archivos de configuración regional",
   "config.disable_path_parsing": "Desabilitar resolución del path",

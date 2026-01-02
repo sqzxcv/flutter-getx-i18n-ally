@@ -43,7 +43,7 @@
   "config.deepl_log": "",
   "config.deepl_use_free_api_entry": "",
   "config.default_namespace": "",
-  "config.deprecated": "非推奨です。 \"i18n-ally\" を使用してください。.",
+  "config.deprecated": "非推奨です。 \"flutter-getx-i18n-ally\" を使用してください。.",
   "config.derived_keys": "",
   "config.dir_structure": "ロケールファイルをオーガナイズするために推奨しているディレクトリ構造",
   "config.disable_path_parsing": "",

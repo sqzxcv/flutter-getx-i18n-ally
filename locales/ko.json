@@ -41,7 +41,7 @@
   "config.deepl_log": "DeepL 엔진 디버그 로그 표시",
   "config.deepl_use_free_api_entry": "DeepL Free API 엔트리 포인트 사용",
   "config.default_namespace": "전역 기본 네임스페이스",
-  "config.deprecated": "더 이상 사용되지 않습니다. \n대신 접두사 \"i18n-ally\"를 사용하십시오.",
+  "config.deprecated": "더 이상 사용되지 않습니다. \n대신 접두사 \"flutter-getx-i18n-ally\"를 사용하십시오.",
   "config.derived_keys": "사용량 보고서에서 파생 키를 표시하는 규칙",
   "config.dir_structure": "로케일 파일을 구성하는 데 선호되는 디렉토리 구조",
   "config.disable_path_parsing": "경로 해석 비활성화",

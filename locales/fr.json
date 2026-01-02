@@ -43,7 +43,7 @@
   "config.deepl_log": "Montrer le journal de debug du moteur DeepL",
   "config.deepl_use_free_api_entry": "Utiliser le point d'entrée gratuite de DeepL",
   "config.default_namespace": "Espace de nom global par défaut",
-  "config.deprecated": "Obsolète. Utilisez le préfixe « i18n-ally. » directement.",
+  "config.deprecated": "Obsolète. Utilisez le préfixe « flutter-getx-i18n-ally. » directement.",
   "config.derived_keys": "Règles pour marquer les clés dérivées dans le rapport d'utilisation",
   "config.dir_structure": "Structure de répertoire préféré pour organiser les fichiers de la locale.",
   "config.disable_path_parsing": "Désactiver la résolution de chemin",

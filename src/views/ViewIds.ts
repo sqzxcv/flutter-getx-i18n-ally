@@ -1,9 +1,9 @@
 
 export enum ViewIds {
-  progress = 'i18n-ally-locales-progress',
-  tree = 'i18n-ally-locales-tree',
-  feedback = 'i18n-ally-help-feedback',
-  usage = 'i18n-ally-locales-usage',
-  file = 'i18n-ally-locales-sidebar-file',
-  file_in_explorer = 'i18n-ally-locales-file-explorer',
+  progress = 'flutter-getx-i18n-ally-locales-progress',
+  tree = 'flutter-getx-i18n-ally-locales-tree',
+  feedback = 'flutter-getx-i18n-ally-help-feedback',
+  usage = 'flutter-getx-i18n-ally-locales-usage',
+  file = 'flutter-getx-i18n-ally-locales-sidebar-file',
+  file_in_explorer = 'flutter-getx-i18n-ally-locales-file-explorer',
 }

@@ -1,8 +1,8 @@
-export const EXT_NAMESPACE = 'i18n-ally'
-export const EXT_ID = 'lokalise.i18n-ally'
-export const EXT_NAME = 'i18n Ally'
-export const EXT_EDITOR_ID = 'i18n-ally-editor'
-export const EXT_REVIEW_ID = 'i18n-ally-review'
+export const EXT_NAMESPACE = 'flutter-getx-i18n-ally'
+export const EXT_ID = 'sqzxcv.flutter-getx-i18n-ally'
+export const EXT_NAME = 'flutter GetX i18n Ally'
+export const EXT_EDITOR_ID = 'flutter-getx-i18n-ally-editor'
+export const EXT_REVIEW_ID = 'flutter-getx-i18n-ally-review'
 
 export const EXT_LEGACY_NAMESPACE = 'vue-i18n-ally'
 

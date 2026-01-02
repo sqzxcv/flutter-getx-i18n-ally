@@ -41,7 +41,7 @@
   "config.deepl_log": "แสดงบันทึกการดีบักโปรแกรม DeepL",
   "config.deepl_use_free_api_entry": "ใช้ DeepL Free API เป็นจุดเริ่มต้น ",
   "config.default_namespace": "namespace Global เริ่มต้น",
-  "config.deprecated": "เลิกใช้ ใช้คำนำหน้า \"i18n-ally.\"",
+  "config.deprecated": "เลิกใช้ ใช้คำนำหน้า \"flutter-getx-i18n-ally.\"",
   "config.derived_keys": "กฎสำหรับทำเครื่องหมายคีย์ที่ได้รับในรายงานการใช้งาน",
   "config.dir_structure": "โครงสร้างไดเร็กทอรีที่ต้องการเพื่อจัดระเบียบไฟล์ภาษา",
   "config.disable_path_parsing": "ปิดใช้งานการแก้ไขเส้นทาง",

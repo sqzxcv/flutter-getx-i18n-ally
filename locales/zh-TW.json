@@ -43,7 +43,7 @@
   "config.deepl_log": "",
   "config.deepl_use_free_api_entry": "",
   "config.default_namespace": "",
-  "config.deprecated": "不推薦使用。\n請使用 \"i18n-ally\" 前綴",
+  "config.deprecated": "不推薦使用。\n請使用 \"flutter-getx-i18n-ally\" 前綴",
   "config.derived_keys": "在使用情況報告中標記分支路径的規則",
   "config.dir_structure": "用於組織本地檔案的主要目錄結構",
   "config.disable_path_parsing": "禁用路徑解析",

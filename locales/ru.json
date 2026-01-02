@@ -43,7 +43,7 @@
   "config.deepl_log": "Отображать отладочные журналы DeepL",
   "config.deepl_use_free_api_entry": "Использовать бесплатную версию DeepL API",
   "config.default_namespace": "Глобальное пространство имен по умолчанию",
-  "config.deprecated": "Устарело. Используйте вместо этого префикс \"i18n-ally.\"",
+  "config.deprecated": "Устарело. Используйте вместо этого префикс \"flutter-getx-i18n-ally.\"",
   "config.derived_keys": "Правила для отметки производных ключей в отчете об использовании",
   "config.dir_structure": "Предпочтительная структура каталогов для организации файлов переводов",
   "config.disable_path_parsing": "Отключить анализ пути",

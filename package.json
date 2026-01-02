@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/lokalise/i18n-ally"
+    "url": "https://github.com/lokalise/flutter-getx-i18n-ally"
   },
   "main": "./dist/extension",
   "scripts": {
@@ -160,10 +160,10 @@
     "workspaceContains:pubspec.yaml",
     "workspaceContains:composer.json",
     "workspaceContains:Gemfile",
-    "workspaceContains:.vscode/i18n-ally-custom-framework.yml",
-    "workspaceContains:.vscode/i18n-ally-reviews.yml",
+    "workspaceContains:.vscode/flutter-getx-i18n-ally-custom-framework.yml",
+    "workspaceContains:.vscode/flutter-getx-i18n-ally-reviews.yml",
     "workspaceContains:*.vue",
-    "onWebviewPanel:i18n-ally-editor",
+    "onWebviewPanel:flutter-getx-i18n-ally-editor",
     "onLanguage:vue",
     "onLanguage:html",
     "onLanguage:pug",
@@ -181,233 +181,233 @@
     "onLanguage:svelte"
   ],
   "icon": "res/logo.png",
-  "homepage": "https://github.com/lokalise/i18n-ally",
-  "bugs": "https://github.com/lokalise/i18n-ally/issues",
+  "homepage": "https://github.com/lokalise/flutter-getx-i18n-ally",
+  "bugs": "https://github.com/lokalise/flutter-getx-i18n-ally/issues",
   "contributes": {
     "commands": [
       {
-        "command": "i18n-ally.config-locales",
+        "command": "flutter-getx-i18n-ally.config-locales",
         "title": "%command.config_locales%",
         "category": "%extname%"
       },
       {
-        "command": "i18n-ally.config-locales-auto",
+        "command": "flutter-getx-i18n-ally.config-locales-auto",
         "title": "%command.config_locales_auto%",
         "category": "%extname%"
       },
       {
-        "command": "i18n-ally.config-display-language",
+        "command": "flutter-getx-i18n-ally.config-display-language",
         "title": "%command.config_display_language%",
         "category": "%extname%"
       },
       {
-        "command": "i18n-ally.config-source-language",
+        "command": "flutter-getx-i18n-ally.config-source-language",
         "title": "%command.config_source_language%",
         "category": "%extname%"
       },
       {
-        "command": "i18n-ally.set-display-language",
+        "command": "flutter-getx-i18n-ally.set-display-language",
         "title": "%command.set_display_language%",
         "category": "%extname%"
       },
       {
-        "command": "i18n-ally.set-source-language",
+        "command": "flutter-getx-i18n-ally.set-source-language",
         "title": "%command.set_source_language%",
         "category": "%extname%"
       },
       {
-        "command": "i18n-ally.copy-key",
+        "command": "flutter-getx-i18n-ally.copy-key",
         "category": "%extname%",
         "title": "%command.copy_key%",
         "icon": "$(clippy)"
       },
       {
-        "command": "i18n-ally.translate-key",
+        "command": "flutter-getx-i18n-ally.translate-key",
         "category": "%extname%",
         "title": "%command.translate_key%",
         "icon": "$(globe)"
       },
       {
-        "command": "i18n-ally.edit-key",
+        "command": "flutter-getx-i18n-ally.edit-key",
         "category": "%extname%",
         "title": "%command.edit_key%",
         "icon": "$(edit)"
       },
       {
-        "command": "i18n-ally.open-key",
+        "command": "flutter-getx-i18n-ally.open-key",
         "category": "%extname%",
         "title": "%command.open_key%",
         "icon": "$(go-to-file)"
       },
       {
-        "command": "i18n-ally.delete-key",
+        "command": "flutter-getx-i18n-ally.delete-key",
         "category": "%extname%",
         "title": "%command.delete_key%"
       },
       {
-        "command": "i18n-ally.rename-key",
+        "command": "flutter-getx-i18n-ally.rename-key",
         "category": "%extname%",
         "title": "%command.rename_key%"
       },
       {
-        "command": "i18n-ally.extract-text",
+        "command": "flutter-getx-i18n-ally.extract-text",
         "category": "%extname%",
         "title": "%refactor.extract_text%",
         "icon": "$(symbol-string)"
       },
       {
-        "command": "i18n-ally.extract-hard-strings-batch",
+        "command": "flutter-getx-i18n-ally.extract-hard-strings-batch",
         "category": "%extname%",
         "title": "Extract all hard-coded strings (experimental)"
       },
       {
-        "command": "i18n-ally.detect_hard_strings",
+        "command": "flutter-getx-i18n-ally.detect_hard_strings",
         "category": "%extname%",
         "title": "Detect hard-coded strings in current file (experimental)"
       },
       {
-        "command": "i18n-ally.open-url",
+        "command": "flutter-getx-i18n-ally.open-url",
         "category": "%extname%",
         "title": "%command.open_url%"
       },
       {
-        "command": "i18n-ally.fulfill-keys",
+        "command": "flutter-getx-i18n-ally.fulfill-keys",
         "category": "%extname%",
         "title": "%command.fulfill_keys%",
         "icon": "$(selection)"
       },
       {
-        "command": "i18n-ally.refresh-usage",
+        "command": "flutter-getx-i18n-ally.refresh-usage",
         "category": "%extname%",
         "title": "%command.refresh_usage%",
         "icon": "$(refresh)"
       },
       {
-        "command": "i18n-ally.support",
+        "command": "flutter-getx-i18n-ally.support",
         "category": "%extname%",
         "title": "%feedback.support%"
       },
       {
-        "command": "i18n-ally.locale-visibility-show",
+        "command": "flutter-getx-i18n-ally.locale-visibility-show",
         "category": "%extname%",
         "title": "%command.locale_visibility_show%",
         "icon": "$(eye)"
       },
       {
-        "command": "i18n-ally.locale-visibility-hide",
+        "command": "flutter-getx-i18n-ally.locale-visibility-hide",
         "category": "%extname%",
         "title": "%command.locale_visibility_hide%",
         "icon": "$(eye-closed)"
       },
       {
-        "command": "i18n-ally.new-key",
+        "command": "flutter-getx-i18n-ally.new-key",
         "category": "%extname%",
         "title": "%command.new_key%",
         "icon": "$(plus)"
       },
       {
-        "command": "i18n-ally.duplicate-key",
+        "command": "flutter-getx-i18n-ally.duplicate-key",
         "category": "%extname%",
         "title": "%command.duplicate_key%"
       },
       {
-        "command": "i18n-ally.mark-key-as-in-use",
+        "command": "flutter-getx-i18n-ally.mark-key-as-in-use",
         "category": "%extname%",
         "title": "%command.mark_key_as_in_use%"
       },
       {
-        "command": "i18n-ally.open-in-editor",
+        "command": "flutter-getx-i18n-ally.open-in-editor",
         "category": "%extname%",
         "title": "%command.open_in_editor%",
         "icon": "$(file-symlink-file)"
       },
       {
-        "command": "i18n-ally.open-editor",
+        "command": "flutter-getx-i18n-ally.open-editor",
         "category": "%extname%",
         "title": "%command.open_editor%"
       },
       {
-        "command": "i18n-ally.review.comment",
+        "command": "flutter-getx-i18n-ally.review.comment",
         "category": "%extname%",
         "title": "%review.leave_comment%",
         "enablement": "!commentIsEmpty"
       },
       {
-        "command": "i18n-ally.review.approve",
+        "command": "flutter-getx-i18n-ally.review.approve",
         "category": "%extname%",
         "title": "%review.approve%"
       },
       {
-        "command": "i18n-ally.review.request-change",
+        "command": "flutter-getx-i18n-ally.review.request-change",
         "category": "%extname%",
         "title": "%review.request_change%"
       },
       {
-        "command": "i18n-ally.review.edit",
+        "command": "flutter-getx-i18n-ally.review.edit",
         "category": "%extname%",
         "title": "%review.edit%",
         "icon": "$(edit)"
       },
       {
-        "command": "i18n-ally.review.resolve",
+        "command": "flutter-getx-i18n-ally.review.resolve",
         "title": "%review.resolve%",
         "icon": "$(issue-closed)"
       },
       {
-        "command": "i18n-ally.review.resolve-thread",
+        "command": "flutter-getx-i18n-ally.review.resolve-thread",
         "category": "%extname%",
         "title": "%review.resolve_all%",
         "icon": "$(checklist)"
       },
       {
-        "command": "i18n-ally.review.apply-translation",
+        "command": "flutter-getx-i18n-ally.review.apply-translation",
         "category": "%extname%",
         "title": "%review.apply_translation_candidate%",
         "icon": "$(check)"
       },
       {
-        "command": "i18n-ally.review.apply-suggestion",
+        "command": "flutter-getx-i18n-ally.review.apply-suggestion",
         "category": "%extname%",
         "title": "%review.apply_suggestion%"
       },
       {
-        "command": "i18n-ally.insert-key",
+        "command": "flutter-getx-i18n-ally.insert-key",
         "category": "%extname%",
         "title": "%command.insert_key%"
       },
       {
-        "command": "i18n-ally.deepl-usage",
+        "command": "flutter-getx-i18n-ally.deepl-usage",
         "category": "%extname%",
         "title": "%command.deepl_usage%"
       },
       {
-        "command": "i18n-ally.go-to-range",
+        "command": "flutter-getx-i18n-ally.go-to-range",
         "category": "%extname%",
         "title": "%command.go_to_range%"
       },
       {
-        "command": "i18n-ally.go-to-next-usage",
+        "command": "flutter-getx-i18n-ally.go-to-next-usage",
         "category": "%extname%",
         "title": "%command.go_to_next_usage%"
       },
       {
-        "command": "i18n-ally.go-to-prev-usage",
+        "command": "flutter-getx-i18n-ally.go-to-prev-usage",
         "category": "%extname%",
         "title": "%command.go_to_prev_usage%"
       },
       {
-        "command": "i18n-ally.open-docs-hard-string",
+        "command": "flutter-getx-i18n-ally.open-docs-hard-string",
         "category": "%extname%",
         "title": "%command.show_docs%",
         "icon": "$(question)"
       },
       {
-        "command": "i18n-ally.extract-disable-auto-detect",
+        "command": "flutter-getx-i18n-ally.extract-disable-auto-detect",
         "category": "%extname%",
         "title": "%command.extract.disable-auto-detect%"
       },
       {
-        "command": "i18n-ally.extract-enable-auto-detect",
+        "command": "flutter-getx-i18n-ally.extract-enable-auto-detect",
         "category": "%extname%",
         "title": "%command.extract.enable-auto-detect%"
       }
@@ -415,263 +415,263 @@
     "menus": {
       "commandPalette": [
         {
-          "command": "i18n-ally.set-display-language",
+          "command": "flutter-getx-i18n-ally.set-display-language",
           "when": "false"
         },
         {
-          "command": "i18n-ally.set-source-language",
+          "command": "flutter-getx-i18n-ally.set-source-language",
           "when": "false"
         },
         {
-          "command": "i18n-ally.copy-key",
+          "command": "flutter-getx-i18n-ally.copy-key",
           "when": "false"
         },
         {
-          "command": "i18n-ally.edit-key",
+          "command": "flutter-getx-i18n-ally.edit-key",
           "when": "false"
         },
         {
-          "command": "i18n-ally.delete-key",
+          "command": "flutter-getx-i18n-ally.delete-key",
           "when": "false"
         },
         {
-          "command": "i18n-ally.rename-key",
+          "command": "flutter-getx-i18n-ally.rename-key",
           "when": "false"
         },
         {
-          "command": "i18n-ally.translate-key",
+          "command": "flutter-getx-i18n-ally.translate-key",
           "when": "false"
         },
         {
-          "command": "i18n-ally.open-key",
+          "command": "flutter-getx-i18n-ally.open-key",
           "when": "false"
         },
         {
-          "command": "i18n-ally.open-url",
+          "command": "flutter-getx-i18n-ally.open-url",
           "when": "false"
         },
         {
-          "command": "i18n-ally.locale-visibility-hide",
+          "command": "flutter-getx-i18n-ally.locale-visibility-hide",
           "when": "false"
         },
         {
-          "command": "i18n-ally.locale-visibility-show",
+          "command": "flutter-getx-i18n-ally.locale-visibility-show",
           "when": "false"
         },
         {
-          "command": "i18n-ally.mark-key-as-in-use",
+          "command": "flutter-getx-i18n-ally.mark-key-as-in-use",
           "when": "false"
         },
         {
-          "command": "i18n-ally.review.comment",
+          "command": "flutter-getx-i18n-ally.review.comment",
           "when": "false"
         },
         {
-          "command": "i18n-ally.review.approve",
+          "command": "flutter-getx-i18n-ally.review.approve",
           "when": "false"
         },
         {
-          "command": "i18n-ally.review.request-change",
+          "command": "flutter-getx-i18n-ally.review.request-change",
           "when": "false"
         },
         {
-          "command": "i18n-ally.review.resolve-thread",
+          "command": "flutter-getx-i18n-ally.review.resolve-thread",
           "when": "false"
         },
         {
-          "command": "i18n-ally.review.resolve",
+          "command": "flutter-getx-i18n-ally.review.resolve",
           "when": "false"
         },
         {
-          "command": "i18n-ally.review.apply-translation",
+          "command": "flutter-getx-i18n-ally.review.apply-translation",
           "when": "false"
         },
         {
-          "command": "i18n-ally.review.apply-suggestion",
+          "command": "flutter-getx-i18n-ally.review.apply-suggestion",
           "when": "false"
         },
         {
-          "command": "i18n-ally.open-in-editor",
+          "command": "flutter-getx-i18n-ally.open-in-editor",
           "when": "false"
         },
         {
-          "command": "i18n-ally.edit-key",
+          "command": "flutter-getx-i18n-ally.edit-key",
           "when": "false"
         },
         {
-          "command": "i18n-ally.duplicate-key",
+          "command": "flutter-getx-i18n-ally.duplicate-key",
           "when": "false"
         },
         {
-          "command": "i18n-ally.go-to-range",
+          "command": "flutter-getx-i18n-ally.go-to-range",
           "when": "false"
         },
         {
-          "command": "i18n-ally.extract-disable-auto-detect",
+          "command": "flutter-getx-i18n-ally.extract-disable-auto-detect",
           "when": "false"
         },
         {
-          "command": "i18n-ally.extract-enable-auto-detect",
+          "command": "flutter-getx-i18n-ally.extract-enable-auto-detect",
           "when": "false"
         }
       ],
       "view/item/context": [
         {
-          "command": "i18n-ally.open-in-editor",
-          "when": "view =~ /i18n-ally-locales/ && viewItem =~ /open-in-editor/",
+          "command": "flutter-getx-i18n-ally.open-in-editor",
+          "when": "view =~ /flutter-getx-i18n-ally-locales/ && viewItem =~ /open-in-editor/",
           "group": "inline@1"
         },
         {
-          "command": "i18n-ally.open-key",
-          "when": "view =~ /i18n-ally-locales/ && viewItem =~ /openable/",
+          "command": "flutter-getx-i18n-ally.open-key",
+          "when": "view =~ /flutter-getx-i18n-ally-locales/ && viewItem =~ /openable/",
           "group": "inline@2"
         },
         {
-          "command": "i18n-ally.copy-key",
-          "when": "view =~ /i18n-ally-locales/ && viewItem =~ /node/",
+          "command": "flutter-getx-i18n-ally.copy-key",
+          "when": "view =~ /flutter-getx-i18n-ally-locales/ && viewItem =~ /node/",
           "group": "inline@3"
         },
         {
-          "command": "i18n-ally.translate-key",
-          "when": "view =~ /i18n-ally-locales/ && viewItem =~ /translatable/",
+          "command": "flutter-getx-i18n-ally.translate-key",
+          "when": "view =~ /flutter-getx-i18n-ally-locales/ && viewItem =~ /translatable/",
           "group": "inline@4"
         },
         {
-          "command": "i18n-ally.edit-key",
-          "when": "view =~ /i18n-ally-locales/ && viewItem =~ /editable/",
+          "command": "flutter-getx-i18n-ally.edit-key",
+          "when": "view =~ /flutter-getx-i18n-ally-locales/ && viewItem =~ /editable/",
           "group": "inline@5"
         },
         {
-          "command": "i18n-ally.fulfill-keys",
-          "when": "view =~ /i18n-ally-locales/ && viewItem =~ /fulfillable/",
+          "command": "flutter-getx-i18n-ally.fulfill-keys",
+          "when": "view =~ /flutter-getx-i18n-ally-locales/ && viewItem =~ /fulfillable/",
           "group": "inline@3"
         },
         {
-          "command": "i18n-ally.review.apply-translation",
-          "when": "view =~ /i18n-ally-locales/ && viewItem =~ /translation-candidate/",
+          "command": "flutter-getx-i18n-ally.review.apply-translation",
+          "when": "view =~ /flutter-getx-i18n-ally-locales/ && viewItem =~ /translation-candidate/",
           "group": "inline@1"
         },
         {
-          "command": "i18n-ally.set-display-language",
-          "when": "view =~ /i18n-ally-locales-progress/ && viewItem =~ /notdisply/"
+          "command": "flutter-getx-i18n-ally.set-display-language",
+          "when": "view =~ /flutter-getx-i18n-ally-locales-progress/ && viewItem =~ /notdisply/"
         },
         {
-          "command": "i18n-ally.set-source-language",
-          "when": "view =~ /i18n-ally-locales-progress/ && viewItem =~ /notsource/"
+          "command": "flutter-getx-i18n-ally.set-source-language",
+          "when": "view =~ /flutter-getx-i18n-ally-locales-progress/ && viewItem =~ /notsource/"
         },
         {
-          "command": "i18n-ally.rename-key",
-          "when": "view =~ /i18n-ally-locales/ && viewItem =~ /node/ && viewItem =~ /writable/",
+          "command": "flutter-getx-i18n-ally.rename-key",
+          "when": "view =~ /flutter-getx-i18n-ally-locales/ && viewItem =~ /node/ && viewItem =~ /writable/",
           "group": "i18nally@1"
         },
         {
-          "command": "i18n-ally.duplicate-key",
-          "when": "view =~ /i18n-ally-locales-tree/ && viewItem =~ /node/ && viewItem =~ /writable/",
+          "command": "flutter-getx-i18n-ally.duplicate-key",
+          "when": "view =~ /flutter-getx-i18n-ally-locales-tree/ && viewItem =~ /node/ && viewItem =~ /writable/",
           "group": "i18nally@2"
         },
         {
-          "command": "i18n-ally.delete-key",
-          "when": "view =~ /i18n-ally-locales/ && viewItem =~ /node/ && viewItem =~ /writable/",
+          "command": "flutter-getx-i18n-ally.delete-key",
+          "when": "view =~ /flutter-getx-i18n-ally-locales/ && viewItem =~ /node/ && viewItem =~ /writable/",
           "group": "i18nally@3"
         },
         {
-          "command": "i18n-ally.locale-visibility-show",
-          "when": "view =~ /i18n-ally-locales-progress/ && viewItem =~ /show/",
+          "command": "flutter-getx-i18n-ally.locale-visibility-show",
+          "when": "view =~ /flutter-getx-i18n-ally-locales-progress/ && viewItem =~ /show/",
           "group": "inline@4"
         },
         {
-          "command": "i18n-ally.locale-visibility-hide",
-          "when": "view =~ /i18n-ally-locales-progress/ && viewItem =~ /hide/",
+          "command": "flutter-getx-i18n-ally.locale-visibility-hide",
+          "when": "view =~ /flutter-getx-i18n-ally-locales-progress/ && viewItem =~ /hide/",
           "group": "inline@4"
         },
         {
-          "command": "i18n-ally.delete-key",
-          "when": "view =~ /i18n-ally-locales-usage/ && viewItem =~ /usage_idle/",
+          "command": "flutter-getx-i18n-ally.delete-key",
+          "when": "view =~ /flutter-getx-i18n-ally-locales-usage/ && viewItem =~ /usage_idle/",
           "group": "i18nally@1"
         },
         {
-          "command": "i18n-ally.mark-key-as-in-use",
-          "when": "view =~ /i18n-ally-locales/ && viewItem =~ /key_idle/",
+          "command": "flutter-getx-i18n-ally.mark-key-as-in-use",
+          "when": "view =~ /flutter-getx-i18n-ally-locales/ && viewItem =~ /key_idle/",
           "group": "i18nally@1"
         },
         {
-          "command": "i18n-ally.open-docs-hard-string",
-          "when": "viewItem =~ /i18n-ally-hard-string-root/",
+          "command": "flutter-getx-i18n-ally.open-docs-hard-string",
+          "when": "viewItem =~ /flutter-getx-i18n-ally-hard-string-root/",
           "group": "inline@1"
         },
         {
-          "command": "i18n-ally.extract-text",
-          "when": "viewItem =~ /i18n-ally-hard-string-item/",
+          "command": "flutter-getx-i18n-ally.extract-text",
+          "when": "viewItem =~ /flutter-getx-i18n-ally-hard-string-item/",
           "group": "inline@1"
         },
         {
-          "command": "i18n-ally.extract-hard-strings-batch",
-          "when": "viewItem =~ /i18n-ally-hard-string-root/",
+          "command": "flutter-getx-i18n-ally.extract-hard-strings-batch",
+          "when": "viewItem =~ /flutter-getx-i18n-ally-hard-string-root/",
           "group": "i18nally@1"
         },
         {
-          "command": "i18n-ally.extract-disable-auto-detect",
-          "when": "viewItem =~ /i18n-ally-hard-string-root/ && i18n-ally.extract.autoDetect == true",
+          "command": "flutter-getx-i18n-ally.extract-disable-auto-detect",
+          "when": "viewItem =~ /flutter-getx-i18n-ally-hard-string-root/ && flutter-getx-i18n-ally.extract.autoDetect == true",
           "group": "i18nally@2"
         },
         {
-          "command": "i18n-ally.extract-enable-auto-detect",
-          "when": "viewItem =~ /i18n-ally-hard-string-root/ && i18n-ally.extract.autoDetect == false",
+          "command": "flutter-getx-i18n-ally.extract-enable-auto-detect",
+          "when": "viewItem =~ /flutter-getx-i18n-ally-hard-string-root/ && flutter-getx-i18n-ally.extract.autoDetect == false",
           "group": "i18nally@2"
         }
       ],
       "view/title": [
         {
-          "command": "i18n-ally.refresh-usage",
+          "command": "flutter-getx-i18n-ally.refresh-usage",
           "group": "navigation",
-          "when": "view =~ /i18n-ally-locales-usage/"
+          "when": "view =~ /flutter-getx-i18n-ally-locales-usage/"
         },
         {
-          "command": "i18n-ally.new-key",
+          "command": "flutter-getx-i18n-ally.new-key",
           "group": "navigation",
-          "when": "view =~ /i18n-ally-locales-tree/"
+          "when": "view =~ /flutter-getx-i18n-ally-locales-tree/"
         }
       ],
       "explorer/context": [
         {
-          "command": "i18n-ally.extract-hard-strings-batch",
+          "command": "flutter-getx-i18n-ally.extract-hard-strings-batch",
           "group": "1_i18nally@1"
         }
       ],
       "comments/commentThread/title": [
         {
-          "command": "i18n-ally.review.resolve-thread",
+          "command": "flutter-getx-i18n-ally.review.resolve-thread",
           "group": "navigation",
-          "when": "commentController == i18n-ally-review && !commentThreadIsEmpty"
+          "when": "commentController == flutter-getx-i18n-ally-review && !commentThreadIsEmpty"
         }
       ],
       "comments/commentThread/context": [
         {
-          "command": "i18n-ally.review.approve",
+          "command": "flutter-getx-i18n-ally.review.approve",
           "group": "inline@1",
-          "when": "commentController == i18n-ally-review"
+          "when": "commentController == flutter-getx-i18n-ally-review"
         },
         {
-          "command": "i18n-ally.review.request-change",
+          "command": "flutter-getx-i18n-ally.review.request-change",
           "group": "inline@2",
-          "when": "commentController == i18n-ally-review"
+          "when": "commentController == flutter-getx-i18n-ally-review"
         },
         {
-          "command": "i18n-ally.review.comment",
+          "command": "flutter-getx-i18n-ally.review.comment",
           "group": "inline@3",
-          "when": "commentController == i18n-ally-review"
+          "when": "commentController == flutter-getx-i18n-ally-review"
         }
       ],
       "comments/comment/title": [
         {
-          "command": "i18n-ally.review.edit",
+          "command": "flutter-getx-i18n-ally.review.edit",
           "group": "group@1",
-          "when": "commentController == i18n-ally-review && viewItem =~ /self/"
+          "when": "commentController == flutter-getx-i18n-ally-review && viewItem =~ /self/"
         },
         {
-          "command": "i18n-ally.review.resolve",
+          "command": "flutter-getx-i18n-ally.review.resolve",
           "group": "group@2",
-          "when": "commentController == i18n-ally-review"
+          "when": "commentController == flutter-getx-i18n-ally-review"
         }
       ],
       "comments/comment/context": []
@@ -679,7 +679,7 @@
     "viewsContainers": {
       "activitybar": [
         {
-          "id": "i18n-ally",
+          "id": "flutter-getx-i18n-ally",
           "title": "%extname%",
           "icon": "./res/logo-view-container.svg"
         }
@@ -688,36 +688,36 @@
     "views": {
       "explorer": [
         {
-          "id": "i18n-ally-locales-file-explorer",
+          "id": "flutter-getx-i18n-ally-locales-file-explorer",
           "name": "%view.i18n_keys%",
-          "when": "i18n-ally-enabled"
+          "when": "flutter-getx-i18n-ally-enabled"
         }
       ],
-      "i18n-ally": [
+      "flutter-getx-i18n-ally": [
         {
-          "id": "i18n-ally-locales-sidebar-file",
+          "id": "flutter-getx-i18n-ally-locales-sidebar-file",
           "name": "%view.current_file%",
-          "when": "i18n-ally-enabled"
+          "when": "flutter-getx-i18n-ally-enabled"
         },
         {
-          "id": "i18n-ally-locales-progress",
+          "id": "flutter-getx-i18n-ally-locales-progress",
           "name": "%view.progress%",
-          "when": "i18n-ally-enabled"
+          "when": "flutter-getx-i18n-ally-enabled"
         },
         {
-          "id": "i18n-ally-locales-tree",
+          "id": "flutter-getx-i18n-ally-locales-tree",
           "name": "%view.tree%",
-          "when": "i18n-ally-enabled"
+          "when": "flutter-getx-i18n-ally-enabled"
         },
         {
-          "id": "i18n-ally-locales-usage",
+          "id": "flutter-getx-i18n-ally-locales-usage",
           "name": "%view.usage%",
-          "when": "i18n-ally-enabled"
+          "when": "flutter-getx-i18n-ally-enabled"
         },
         {
-          "id": "i18n-ally-help-feedback",
+          "id": "flutter-getx-i18n-ally-help-feedback",
           "name": "%view.help_feedback%",
-          "when": "i18n-ally-enabled"
+          "when": "flutter-getx-i18n-ally-enabled"
         }
       ]
     },
@@ -725,17 +725,17 @@
       "type": "object",
       "title": "%extname%",
       "properties": {
-        "i18n-ally.disabled": {
+        "flutter-getx-i18n-ally.disabled": {
           "type": "boolean",
           "default": false,
           "description": "%config.disabled%"
         },
-        "i18n-ally.autoDetection": {
+        "flutter-getx-i18n-ally.autoDetection": {
           "type": "boolean",
           "default": true,
           "description": "%config.auto_detection%"
         },
-        "i18n-ally.localesPaths": {
+        "flutter-getx-i18n-ally.localesPaths": {
           "type": [
             "string",
             "array"
@@ -746,24 +746,24 @@
           "description": "%config.locales_paths%",
           "scope": "resource"
         },
-        "i18n-ally.encoding": {
+        "flutter-getx-i18n-ally.encoding": {
           "type": "string",
           "default": "utf-8",
           "description": "%config.encoding%"
         },
-        "i18n-ally.sourceLanguage": {
+        "flutter-getx-i18n-ally.sourceLanguage": {
           "type": "string",
           "description": "%config.source_language%"
         },
-        "i18n-ally.displayLanguage": {
+        "flutter-getx-i18n-ally.displayLanguage": {
           "type": "string",
           "description": "%config.display_language%"
         },
-        "i18n-ally.ignoredLocales": {
+        "flutter-getx-i18n-ally.ignoredLocales": {
           "type": "array",
           "description": "%config.ignored_locales%"
         },
-        "i18n-ally.keystyle": {
+        "flutter-getx-i18n-ally.keystyle": {
           "type": "string",
           "enum": [
             "auto",
@@ -772,7 +772,7 @@
           ],
           "description": "%config.keystyle%"
         },
-        "i18n-ally.dirStructure": {
+        "flutter-getx-i18n-ally.dirStructure": {
           "type": "string",
           "enum": [
             "auto",
@@ -781,42 +781,42 @@
           ],
           "description": "%config.dir_structure%"
         },
-        "i18n-ally.annotations": {
+        "flutter-getx-i18n-ally.annotations": {
           "type": "boolean",
           "default": true,
           "description": "%config.annotations%"
         },
-        "i18n-ally.annotationInPlace": {
+        "flutter-getx-i18n-ally.annotationInPlace": {
           "type": "boolean",
           "default": true,
           "description": "%config.annotation_in_place%"
         },
-        "i18n-ally.annotationMaxLength": {
+        "flutter-getx-i18n-ally.annotationMaxLength": {
           "type": "number",
           "default": 40,
           "description": "%config.annotation_max_length%"
         },
-        "i18n-ally.annotationDelimiter": {
+        "flutter-getx-i18n-ally.annotationDelimiter": {
           "type": "string",
           "default": "·",
           "description": "%config.annotation_delimiter%"
         },
-        "i18n-ally.includeSubfolders": {
+        "flutter-getx-i18n-ally.includeSubfolders": {
           "type": "boolean",
           "default": true,
           "description": "%config.include_subfolders%"
         },
-        "i18n-ally.fullReloadOnChanged": {
+        "flutter-getx-i18n-ally.fullReloadOnChanged": {
           "type": "boolean",
           "default": false,
           "description": "%config.full_reload_on_changed%"
         },
-        "i18n-ally.showFlags": {
+        "flutter-getx-i18n-ally.showFlags": {
           "type": "boolean",
           "default": true,
           "description": "%config.show_flags%"
         },
-        "i18n-ally.enabledFrameworks": {
+        "flutter-getx-i18n-ally.enabledFrameworks": {
           "type": "array",
           "items": {
             "type": "string",
@@ -854,7 +854,7 @@
           },
           "description": "%config.enabled_frameworks%"
         },
-        "i18n-ally.enabledParsers": {
+        "flutter-getx-i18n-ally.enabledParsers": {
           "type": "array",
           "items": {
             "type": "string",
@@ -873,19 +873,19 @@
           },
           "description": "%config.enabled_parsers%"
         },
-        "i18n-ally.keysInUse": {
+        "flutter-getx-i18n-ally.keysInUse": {
           "type": "array",
           "items": {
             "type": "string"
           },
           "description": "%config.keys_in_use%"
         },
-        "i18n-ally.sortKeys": {
+        "flutter-getx-i18n-ally.sortKeys": {
           "type": "boolean",
           "default": false,
           "description": "%config.sort_keys%"
         },
-        "i18n-ally.sortCompare": {
+        "flutter-getx-i18n-ally.sortCompare": {
           "type": "string",
           "enum": [
             "binary",
@@ -894,41 +894,41 @@
           "default": "binary",
           "description": "%config.sort_compare%"
         },
-        "i18n-ally.sortLocale": {
+        "flutter-getx-i18n-ally.sortLocale": {
           "type": "string",
           "description": "%config.sort_locale%"
         },
-        "i18n-ally.preferredDelimiter": {
+        "flutter-getx-i18n-ally.preferredDelimiter": {
           "type": "string",
           "default": "-",
           "description": "%config.preferred_delimiter%"
         },
-        "i18n-ally.readonly": {
+        "flutter-getx-i18n-ally.readonly": {
           "type": "boolean",
           "default": false,
           "description": "%config.readonly%"
         },
-        "i18n-ally.keepFulfilled": {
+        "flutter-getx-i18n-ally.keepFulfilled": {
           "type": "boolean",
           "default": false,
           "description": "%config.keep_fulfill%"
         },
-        "i18n-ally.localeCountryMap": {
+        "flutter-getx-i18n-ally.localeCountryMap": {
           "type": "object",
           "default": {},
           "description": "%config.locale_country_map%"
         },
-        "i18n-ally.indent": {
+        "flutter-getx-i18n-ally.indent": {
           "type": "number",
           "default": 2,
           "description": "%config.indent%"
         },
-        "i18n-ally.disablePathParsing": {
+        "flutter-getx-i18n-ally.disablePathParsing": {
           "type": "boolean",
           "default": false,
           "description": "%config.disable_path_parsing%"
         },
-        "i18n-ally.tabStyle": {
+        "flutter-getx-i18n-ally.tabStyle": {
           "type": "string",
           "default": "space",
           "enum": [
@@ -937,15 +937,15 @@
           ],
           "description": "%config.tab_style%"
         },
-        "i18n-ally.namespace": {
+        "flutter-getx-i18n-ally.namespace": {
           "type": "boolean",
           "description": "%config.namespace%"
         },
-        "i18n-ally.pathMatcher": {
+        "flutter-getx-i18n-ally.pathMatcher": {
           "type": "string",
           "description": "%config.path_matcher%"
         },
-        "i18n-ally.languageTagSystem": {
+        "flutter-getx-i18n-ally.languageTagSystem": {
           "type": "string",
           "enum": [
             "bcp47",
@@ -955,48 +955,48 @@
           "default": "bcp47",
           "description": "%config.language_tag_system%"
         },
-        "i18n-ally.ignoreFiles": {
+        "flutter-getx-i18n-ally.ignoreFiles": {
           "type": "array",
           "item": {
             "type": "string"
           },
           "description": "%config.ignore_files%"
         },
-        "i18n-ally.theme.annotation": {
+        "flutter-getx-i18n-ally.theme.annotation": {
           "type": "string",
           "default": "rgba(153, 153, 153, .8)"
         },
-        "i18n-ally.theme.annotationMissing": {
+        "flutter-getx-i18n-ally.theme.annotationMissing": {
           "type": "string",
           "default": "rgba(153, 153, 153, .3)"
         },
-        "i18n-ally.theme.annotationBorder": {
+        "flutter-getx-i18n-ally.theme.annotationBorder": {
           "type": "string",
           "default": "rgba(153, 153, 153, .2)"
         },
-        "i18n-ally.theme.annotationMissingBorder": {
+        "flutter-getx-i18n-ally.theme.annotationMissingBorder": {
           "type": "string",
           "default": "rgba(153, 153, 153, .2)"
         },
-        "i18n-ally.regex.key": {
+        "flutter-getx-i18n-ally.regex.key": {
           "type": "string",
           "description": "%config.regex_key%"
         },
-        "i18n-ally.regex.usageMatch": {
+        "flutter-getx-i18n-ally.regex.usageMatch": {
           "type": "array",
           "items": {
             "type": "string"
           },
           "description": "%config.regex_usage_match%"
         },
-        "i18n-ally.regex.usageMatchAppend": {
+        "flutter-getx-i18n-ally.regex.usageMatchAppend": {
           "type": "array",
           "items": {
             "type": "string"
           },
           "description": "%config.regex_usage_match_append%"
         },
-        "i18n-ally.refactor.templates": {
+        "flutter-getx-i18n-ally.refactor.templates": {
           "type": "array",
           "items": {
             "type": "object",
@@ -1037,17 +1037,17 @@
           },
           "description": "%config.refactor_templates%"
         },
-        "i18n-ally.translate.saveAsCandidates": {
+        "flutter-getx-i18n-ally.translate.saveAsCandidates": {
           "type": "boolean",
           "default": false,
           "description": "%config.translate_save_as_candidates%"
         },
-        "i18n-ally.translate.fallbackToKey": {
+        "flutter-getx-i18n-ally.translate.fallbackToKey": {
           "type": "boolean",
           "default": false,
           "description": "%config.translate.fallbackToKey%"
         },
-        "i18n-ally.translate.engines": {
+        "flutter-getx-i18n-ally.translate.engines": {
           "type": "array",
           "items": {
             "type": "string",
@@ -1065,67 +1065,67 @@
           ],
           "description": "%config.translate.engines%"
         },
-        "i18n-ally.translate.parallels": {
+        "flutter-getx-i18n-ally.translate.parallels": {
           "type": "number",
           "default": 5,
           "description": "%config.translate.parallels%"
         },
-        "i18n-ally.translate.promptSource": {
+        "flutter-getx-i18n-ally.translate.promptSource": {
           "type": "boolean",
           "default": false,
           "description": "%config.prompt_translating_source%"
         },
-        "i18n-ally.translate.overrideExisting": {
+        "flutter-getx-i18n-ally.translate.overrideExisting": {
           "type": "boolean",
           "default": false,
           "description": "%config.translate_override_existing%"
         },
-        "i18n-ally.translate.google.apiKey": {
+        "flutter-getx-i18n-ally.translate.google.apiKey": {
           "type": "string",
           "default": null,
           "description": "%config.google_api_key%"
         },
-        "i18n-ally.translate.deepl.apiKey": {
+        "flutter-getx-i18n-ally.translate.deepl.apiKey": {
           "type": "string",
           "default": null,
           "description": "%config.deepl_api_key%"
         },
-        "i18n-ally.translate.baidu.appid": {
+        "flutter-getx-i18n-ally.translate.baidu.appid": {
           "type": "string",
           "default": null,
           "description": "%config.baidu_appid%"
         },
-        "i18n-ally.translate.baidu.apiSecret": {
+        "flutter-getx-i18n-ally.translate.baidu.apiSecret": {
           "type": "string",
           "default": null,
           "description": "%config.baidu_app_secret%"
         },
-        "i18n-ally.translate.deepl.enableLog": {
+        "flutter-getx-i18n-ally.translate.deepl.enableLog": {
           "type": "boolean",
           "default": false,
           "description": "%config.deepl_log%"
         },
-        "i18n-ally.translate.deepl.useFreeApiEntry": {
+        "flutter-getx-i18n-ally.translate.deepl.useFreeApiEntry": {
           "type": "boolean",
           "default": false,
           "description": "%config.deepl_use_free_api_entry%"
         },
-        "i18n-ally.translate.libre.apiRoot": {
+        "flutter-getx-i18n-ally.translate.libre.apiRoot": {
           "type": "string",
           "default": "http://localhost:5000",
           "description": "%config.libretranslate_api_root%"
         },
-        "i18n-ally.translate.openai.apiKey": {
+        "flutter-getx-i18n-ally.translate.openai.apiKey": {
           "type": "string",
           "default": null,
           "description": "%config.openai_api_key%"
         },
-        "i18n-ally.translate.openai.apiRoot": {
+        "flutter-getx-i18n-ally.translate.openai.apiRoot": {
           "type": "string",
           "default": "https://api.openai.com",
           "description": "%config.openai_api_root%"
         },
-        "i18n-ally.translate.openai.apiModel": {
+        "flutter-getx-i18n-ally.translate.openai.apiModel": {
           "type": "string",
           "default": "gpt-3.5-turbo",
           "enum": [
@@ -1142,14 +1142,14 @@
           ],
           "description": "%config.openai_api_model%"
         },
-        "i18n-ally.usage.scanningIgnore": {
+        "flutter-getx-i18n-ally.usage.scanningIgnore": {
           "type": "array",
           "items": {
             "type": "string"
           },
           "description": "%config.usage.scanning_ignore%"
         },
-        "i18n-ally.usage.derivedKeyRules": {
+        "flutter-getx-i18n-ally.usage.derivedKeyRules": {
           "type": "array",
           "items": {
             "type": "string"
@@ -1157,51 +1157,51 @@
           "default": null,
           "description": "%config.derived_keys%"
         },
-        "i18n-ally.frameworks.ruby-rails.scopeRoot": {
+        "flutter-getx-i18n-ally.frameworks.ruby-rails.scopeRoot": {
           "type": "string",
           "default": "app/views"
         },
-        "i18n-ally.parsers.typescript.tsNodePath": {
+        "flutter-getx-i18n-ally.parsers.typescript.tsNodePath": {
           "type": "string",
           "default": "node_modules/ts-node/dist/bin.js"
         },
-        "i18n-ally.parsers.typescript.compilerOptions": {
+        "flutter-getx-i18n-ally.parsers.typescript.compilerOptions": {
           "type": "object",
           "default": {}
         },
-        "i18n-ally.parsers.extendFileExtensions": {
+        "flutter-getx-i18n-ally.parsers.extendFileExtensions": {
           "type": "object",
           "default": {}
         },
-        "i18n-ally.review.enabled": {
+        "flutter-getx-i18n-ally.review.enabled": {
           "type": "boolean",
           "default": true,
           "description": "%config.review_enabled%"
         },
-        "i18n-ally.review.gutters": {
+        "flutter-getx-i18n-ally.review.gutters": {
           "type": "boolean",
           "default": true,
           "description": "%config.review_gutters%"
         },
-        "i18n-ally.review.user.name": {
+        "flutter-getx-i18n-ally.review.user.name": {
           "type": "string",
           "description": "%config.review_username%"
         },
-        "i18n-ally.review.user.email": {
+        "flutter-getx-i18n-ally.review.user.email": {
           "type": "string",
           "description": "%config.review_email%"
         },
-        "i18n-ally.review.removeCommentOnResolved": {
+        "flutter-getx-i18n-ally.review.removeCommentOnResolved": {
           "type": "boolean",
           "default": false,
           "description": "%config.review_remove_on_resolved%"
         },
-        "i18n-ally.editor.preferEditor": {
+        "flutter-getx-i18n-ally.editor.preferEditor": {
           "type": "boolean",
           "default": false,
           "description": "%config.editor_prefer_editor%"
         },
-        "i18n-ally.extract.keygenStrategy": {
+        "flutter-getx-i18n-ally.extract.keygenStrategy": {
           "type": "string",
           "default": "slug",
           "enum": [
@@ -1212,7 +1212,7 @@
           ],
           "description": "%config.keygen_strategy%"
         },
-        "i18n-ally.extract.keygenStyle": {
+        "flutter-getx-i18n-ally.extract.keygenStyle": {
           "type": "string",
           "default": "default",
           "enum": [
@@ -1225,17 +1225,17 @@
           ],
           "description": "%config.keygen_style%"
         },
-        "i18n-ally.extract.keyPrefix": {
+        "flutter-getx-i18n-ally.extract.keyPrefix": {
           "type": "string",
           "default": "",
           "description": "%config.key_prefix%"
         },
-        "i18n-ally.extract.keyMaxLength": {
+        "flutter-getx-i18n-ally.extract.keyMaxLength": {
           "type": "number",
           "default": null,
           "description": "%config.key_max_length%"
         },
-        "i18n-ally.extract.targetPickingStrategy": {
+        "flutter-getx-i18n-ally.extract.targetPickingStrategy": {
           "type": "string",
           "default": "none",
           "enum": [
@@ -1254,98 +1254,98 @@
           ],
           "description": "%config.target_picking_strategy%"
         },
-        "i18n-ally.extract.parsers.html": {
+        "flutter-getx-i18n-ally.extract.parsers.html": {
           "type": "object",
           "default": {},
-          "description": "Parser options for extracting HTML, see https://github.com/lokalise/i18n-ally/blob/master/src/extraction/parsers/options.ts"
+          "description": "Parser options for extracting HTML, see https://github.com/lokalise/flutter-getx-i18n-ally/blob/master/src/extraction/parsers/options.ts"
         },
-        "i18n-ally.extract.parsers.babel": {
+        "flutter-getx-i18n-ally.extract.parsers.babel": {
           "type": "object",
           "default": {},
-          "description": "Parser options for extracting JS/TS/JSX/TSX, see https://github.com/lokalise/i18n-ally/blob/master/src/extraction/parsers/options.ts"
+          "description": "Parser options for extracting JS/TS/JSX/TSX, see https://github.com/lokalise/flutter-getx-i18n-ally/blob/master/src/extraction/parsers/options.ts"
         },
-        "i18n-ally.extract.autoDetect": {
+        "flutter-getx-i18n-ally.extract.autoDetect": {
           "type": "boolean",
           "default": false,
           "description": "Enables hard-coded strings detection automatically whenever opening a supported file"
         },
-        "i18n-ally.extract.ignored": {
+        "flutter-getx-i18n-ally.extract.ignored": {
           "type": "array",
           "items": {
             "type": "string"
           },
           "description": "Strings to be ignored on hard-coded strings detection"
         },
-        "i18n-ally.extract.ignoredByFiles": {
+        "flutter-getx-i18n-ally.extract.ignoredByFiles": {
           "type": "object",
           "default": {},
           "description": "Strings to be ignored on hard-coded strings detection, by files"
         },
-        "i18n-ally.parserOptions": {
+        "flutter-getx-i18n-ally.parserOptions": {
           "type": "object"
         },
-        "i18n-ally.defaultNamespace": {
+        "flutter-getx-i18n-ally.defaultNamespace": {
           "type": "string",
           "description": "%config.default_namespace%"
         },
-        "i18n-ally.derivedKeyRules": {
-          "deprecationMessage": "Deprecated. Use \"i18n-ally.usage.derivedKeyRules\" instead."
+        "flutter-getx-i18n-ally.derivedKeyRules": {
+          "deprecationMessage": "Deprecated. Use \"flutter-getx-i18n-ally.usage.derivedKeyRules\" instead."
         },
-        "i18n-ally.filenameMatchRegex": {
-          "deprecationMessage": "Deprecated. Use \"i18n-ally.pathMatcher\" instead."
+        "flutter-getx-i18n-ally.filenameMatchRegex": {
+          "deprecationMessage": "Deprecated. Use \"flutter-getx-i18n-ally.pathMatcher\" instead."
         },
-        "i18n-ally.fileNamespace": {
-          "deprecationMessage": "Deprecated. Use \"i18n-ally.namespace\" instead."
+        "flutter-getx-i18n-ally.fileNamespace": {
+          "deprecationMessage": "Deprecated. Use \"flutter-getx-i18n-ally.namespace\" instead."
         },
-        "i18n-ally.keyMatchRegex": {
-          "deprecationMessage": "Deprecated. Use \"i18n-ally.regex.key\" instead."
+        "flutter-getx-i18n-ally.keyMatchRegex": {
+          "deprecationMessage": "Deprecated. Use \"flutter-getx-i18n-ally.regex.key\" instead."
         },
-        "vue-i18n-ally.localesPaths": {
+        "vue-flutter-getx-i18n-ally.localesPaths": {
           "deprecationMessage": "%config.deprecated%"
         },
-        "vue-i18n-ally.encoding": {
+        "vue-flutter-getx-i18n-ally.encoding": {
           "deprecationMessage": "%config.deprecated%"
         },
-        "vue-i18n-ally.sourceLanguage": {
+        "vue-flutter-getx-i18n-ally.sourceLanguage": {
           "deprecationMessage": "%config.deprecated%"
         },
-        "vue-i18n-ally.displayLanguage": {
+        "vue-flutter-getx-i18n-ally.displayLanguage": {
           "deprecationMessage": "%config.deprecated%"
         },
-        "vue-i18n-ally.ignoredLocales": {
+        "vue-flutter-getx-i18n-ally.ignoredLocales": {
           "deprecationMessage": "%config.deprecated%"
         },
-        "vue-i18n-ally.keystyle": {
+        "vue-flutter-getx-i18n-ally.keystyle": {
           "deprecationMessage": "%config.deprecated%"
         },
-        "vue-i18n-ally.dirStructure": {
+        "vue-flutter-getx-i18n-ally.dirStructure": {
           "deprecationMessage": "%config.deprecated%"
         },
-        "vue-i18n-ally.annotations": {
+        "vue-flutter-getx-i18n-ally.annotations": {
           "deprecationMessage": "%config.deprecated%"
         },
-        "vue-i18n-ally.annotationMaxLength": {
+        "vue-flutter-getx-i18n-ally.annotationMaxLength": {
           "deprecationMessage": "%config.deprecated%"
         },
-        "vue-i18n-ally.annotationDelimiter": {
+        "vue-flutter-getx-i18n-ally.annotationDelimiter": {
           "deprecationMessage": "%config.deprecated%"
         },
-        "vue-i18n-ally.filenameMatchRegex": {
+        "vue-flutter-getx-i18n-ally.filenameMatchRegex": {
           "deprecationMessage": "%config.deprecated%"
         },
-        "vue-i18n-ally.includeSubfolders": {
+        "vue-flutter-getx-i18n-ally.includeSubfolders": {
           "deprecationMessage": "%config.deprecated%"
         },
-        "vue-i18n-ally.fullReloadOnChanged": {
+        "vue-flutter-getx-i18n-ally.fullReloadOnChanged": {
           "deprecationMessage": "%config.deprecated%"
         },
-        "vue-i18n-ally.sortKeys": {
+        "vue-flutter-getx-i18n-ally.sortKeys": {
           "deprecationMessage": "%config.deprecated%"
         },
-        "vue-i18n-ally.preferredDelimiter": {
+        "vue-flutter-getx-i18n-ally.preferredDelimiter": {
           "deprecationMessage": "%config.deprecated%"
         },
-        "vue-i18n-ally.readonly": {
+        "vue-flutter-getx-i18n-ally.readonly": {
           "deprecationMessage": "%config.deprecated%"
         }
       }

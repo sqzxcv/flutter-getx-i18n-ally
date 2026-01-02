@@ -43,7 +43,7 @@
   "config.deepl_log": "Відображати налагоджувальні журнали DeepL",
   "config.deepl_use_free_api_entry": "",
   "config.default_namespace": "Глобальні простори імен за замовчуванням",
-  "config.deprecated": "Не рекомендується. Натомість використовуйте префікс \"i18n-ally.\"",
+  "config.deprecated": "Не рекомендується. Натомість використовуйте префікс \"flutter-getx-i18n-ally.\"",
   "config.derived_keys": "Правила для позначки похідних ключів в звіті про використання",
   "config.dir_structure": "Переважна структура каталогів для організації файлів перекладів",
   "config.disable_path_parsing": "Відключити аналіз шляху",

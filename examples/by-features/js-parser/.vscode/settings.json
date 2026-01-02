@@ -1,10 +1,10 @@
 {
-  "i18n-ally.localesPaths": "locales",
-  "i18n-ally.enabledParsers": [
+  "flutter-getx-i18n-ally.localesPaths": "locales",
+  "flutter-getx-i18n-ally.enabledParsers": [
     "ts",
     "js"
   ],
-  "i18n-ally.sourceLanguage": "en",
-  "i18n-ally.theme.annotationMissingBorder": "#d37070",
-  "i18n-ally.theme.annotationMissing": "#d37070"
+  "flutter-getx-i18n-ally.sourceLanguage": "en",
+  "flutter-getx-i18n-ally.theme.annotationMissingBorder": "#d37070",
+  "flutter-getx-i18n-ally.theme.annotationMissing": "#d37070"
 }

@@ -1,8 +1,8 @@
 {
-  "i18n-ally.localesPaths": "locales",
-  "i18n-ally.regex.key": ".*?",
-  "i18n-ally.sourceLanguage": "en",
-  "i18n-ally.keysInUse": [
+  "flutter-getx-i18n-ally.localesPaths": "locales",
+  "flutter-getx-i18n-ally.regex.key": ".*?",
+  "flutter-getx-i18n-ally.sourceLanguage": "en",
+  "flutter-getx-i18n-ally.keysInUse": [
     "date.long.*",
     "yeah"
   ]

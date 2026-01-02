@@ -465,7 +465,7 @@ export class Config {
 
   static set extractAutoDetect(v: boolean) {
     this.setConfig('extract.autoDetect', v, false)
-    commands.executeCommand('setContext', 'i18n-ally.extract.autoDetect', v)
+    commands.executeCommand('setContext', 'flutter-getx-i18n-ally.extract.autoDetect', v)
   }
 
   static get extractParserHTMLOptions() {

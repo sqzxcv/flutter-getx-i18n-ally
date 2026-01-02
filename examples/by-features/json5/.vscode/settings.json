@@ -1,8 +1,8 @@
 {
-  "i18n-ally.localesPaths": [
+  "flutter-getx-i18n-ally.localesPaths": [
     "locales"
   ],
-  "i18n-ally.parsers.extendFileExtensions": {
+  "flutter-getx-i18n-ally.parsers.extendFileExtensions": {
     "my-custom-ext": "json5"
   }
 }

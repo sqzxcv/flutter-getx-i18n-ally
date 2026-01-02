@@ -1,4 +1,4 @@
 {
-  "i18n-ally.localesPaths": "messages",
-  "i18n-ally.enabledFrameworks": ["next-intl"]
+  "flutter-getx-i18n-ally.localesPaths": "messages",
+  "flutter-getx-i18n-ally.enabledFrameworks": ["next-intl"]
 }

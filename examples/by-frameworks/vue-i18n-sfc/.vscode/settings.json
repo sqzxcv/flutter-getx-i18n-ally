@@ -1,5 +1,5 @@
 {
-  "i18n-ally.keystyle": "nested",
-  "i18n-ally.sourceLanguage": "en",
-  "i18n-ally.localesPaths": "locales",
+  "flutter-getx-i18n-ally.keystyle": "nested",
+  "flutter-getx-i18n-ally.sourceLanguage": "en",
+  "flutter-getx-i18n-ally.localesPaths": "locales",
 }

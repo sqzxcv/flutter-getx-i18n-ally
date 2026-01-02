@@ -43,7 +43,7 @@
   "config.deepl_log": "",
   "config.deepl_use_free_api_entry": "",
   "config.default_namespace": "",
-  "config.deprecated": "Förlegad. Använd \"i18n-ally.\"-prefixet istället.",
+  "config.deprecated": "Förlegad. Använd \"flutter-getx-i18n-ally.\"-prefixet istället.",
   "config.derived_keys": "Regler för att markera deriverade regler i användsningsrapporten",
   "config.dir_structure": "Föredragen sökvägsstruktur för att organisera locale-filer",
   "config.disable_path_parsing": "Inaktivera sökvägsdetektering",

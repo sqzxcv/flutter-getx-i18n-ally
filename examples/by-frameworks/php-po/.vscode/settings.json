@@ -1,6 +1,6 @@
 {
-  "i18n-ally.enabledFrameworks": [
+  "flutter-getx-i18n-ally.enabledFrameworks": [
     "php-gettext"
   ],
-  "i18n-ally.localesPaths": "locale"
+  "flutter-getx-i18n-ally.localesPaths": "locale"
 }

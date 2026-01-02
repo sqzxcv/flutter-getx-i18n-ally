@@ -1,8 +1,8 @@
 {
-  "i18n-ally.localesPaths": "locales",
-  "i18n-ally.languageTagSystem": "bcp47",
-  "i18n-ally.sourceLanguage": "en",
-  "i18n-ally.keystyle": "nested",
-  "i18n-ally.translate.saveAsCandidates": true,
-  "i18n-ally.enabledFrameworks": ["vue", "react"]
+  "flutter-getx-i18n-ally.localesPaths": "locales",
+  "flutter-getx-i18n-ally.languageTagSystem": "bcp47",
+  "flutter-getx-i18n-ally.sourceLanguage": "en",
+  "flutter-getx-i18n-ally.keystyle": "nested",
+  "flutter-getx-i18n-ally.translate.saveAsCandidates": true,
+  "flutter-getx-i18n-ally.enabledFrameworks": ["vue", "react"]
 }

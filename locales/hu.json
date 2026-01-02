@@ -41,7 +41,7 @@
 "config.deepl_log": "A DeepL engine DEBUG naplózásának megjelenítése",
 "config.deepl_use_free_api_entry": "Használja a DeepL Free API bejáratot",
 "config.default_namespace": "Globális alapértelmezett névtér",
-"config.deprecated": "Elavult. Az i18n-ally. prefixet kell helyette használni.",
+"config.deprecated": "Elavult. Az flutter-getx-i18n-ally. prefixet kell helyette használni.",
 "config.derived_keys": "Szabályok a származtatott kulcsok jelöléséhez a használati jelentésben.",
 "config.dir_structure": "A locale fájlok rendezésére használt preferált könyvtárstruktúra",
 "config.disable_path_parsing": "Az útvonal feloldása letiltva",

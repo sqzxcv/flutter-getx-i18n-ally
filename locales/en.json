@@ -43,7 +43,7 @@
   "config.deepl_log": "Show DeepL engine debug logs",
   "config.deepl_use_free_api_entry": "Use DeepL Free API entry point",
   "config.default_namespace": "Global default namespace",
-  "config.deprecated": "Deprecated. Use \"i18n-ally.\" prefix instead.",
+  "config.deprecated": "Deprecated. Use \"flutter-getx-i18n-ally.\" prefix instead.",
   "config.derived_keys": "Rules to mark derived keys in the usage report",
   "config.dir_structure": "Preferred directory structure to organize locale files",
   "config.disable_path_parsing": "Disable path resolution",

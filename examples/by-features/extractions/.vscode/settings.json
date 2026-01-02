@@ -1,11 +1,11 @@
 {
-  "i18n-ally.localesPaths": "locales",
-  "i18n-ally.sourceLanguage": "en",
-  "i18n-ally.keystyle": "nested",
-  "i18n-ally.extract.autoDetect": true,
-  "i18n-ally.editor.preferEditor": true,
-  "i18n-ally.translate.saveAsCandidates": true,
-  "i18n-ally.refactor.templates": [
+  "flutter-getx-i18n-ally.localesPaths": "locales",
+  "flutter-getx-i18n-ally.sourceLanguage": "en",
+  "flutter-getx-i18n-ally.keystyle": "nested",
+  "flutter-getx-i18n-ally.extract.autoDetect": true,
+  "flutter-getx-i18n-ally.editor.preferEditor": true,
+  "flutter-getx-i18n-ally.translate.saveAsCandidates": true,
+  "flutter-getx-i18n-ally.refactor.templates": [
     {
       "source": "html-attribute",
       "template": "z('{key}'{args})"
@@ -17,10 +17,10 @@
       ]
     }
   ],
-  "i18n-ally.extract.ignored": [
+  "flutter-getx-i18n-ally.extract.ignored": [
     "Hello"
   ],
-  "i18n-ally.extract.ignoredByFiles": {
+  "flutter-getx-i18n-ally.extract.ignoredByFiles": {
     "Demo.vue": [
       "Demo"
     ],
