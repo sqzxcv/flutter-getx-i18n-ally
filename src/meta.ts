@@ -1,6 +1,6 @@
 export const EXT_NAMESPACE = 'flutter-getx-i18n-ally'
 export const EXT_ID = 'sqzxcv.flutter-getx-i18n-ally'
-export const EXT_NAME = 'flutter GetX i18n Ally'
+export const EXT_NAME = 'Flutter GetX i18n Ally'
 export const EXT_EDITOR_ID = 'flutter-getx-i18n-ally-editor'
 export const EXT_REVIEW_ID = 'flutter-getx-i18n-ally-review'
 

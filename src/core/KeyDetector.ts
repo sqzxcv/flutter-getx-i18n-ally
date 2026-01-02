@@ -100,8 +100,8 @@ export class KeyDetector {
     let filepath = ''
     if (typeof document !== 'string') {
       filepath = document.uri.fsPath
-      if (this._get_keys_cache[filepath])
-        return this._get_keys_cache[filepath]
+      // if (this._get_keys_cache[filepath])
+      //   return this._get_keys_cache[filepath]
 
       regs = regs ?? Global.getUsageMatchRegex(document.languageId, filepath)
       text = document.getText()

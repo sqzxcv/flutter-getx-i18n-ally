@@ -30,16 +30,16 @@ class FlutterGetXFramework extends Framework {
   // for visualize the regex, you can use https://regexper.com/
   usageMatchRegex = [
     // Match 'key'.tr or "key".tr (simple .tr)
-    '[\'"`]({key})[\'"`]\\.tr(?!\\w)',
+    '[\'"`](.*?)[\'"`]\\.tr(?!\\w)',
 
     // Match 'key'.trParams({...})
-    '[\'"`]({key})[\'"`]\\.trParams\\s*\\(',
+    '[\'"`](.*?)[\'"`]\\.trParams\\s*\\(',
 
     // Match 'key'.trPlural(...)
-    '[\'"`]({key})[\'"`]\\.trPlural\\s*\\(',
+    '[\'"`](.*?)[\'"`]\\.trPlural\\s*\\(',
 
     // Match 'key'.trPluralParams(...)
-    '[\'"`]({key})[\'"`]\\.trPluralParams\\s*\\(',
+    '[\'"`](.*?)[\'"`]\\.trPluralParams\\s*\\(',
 
     // Match LocaleKeys.xxx.tr pattern
     'LocaleKeys\\.({key})\\.tr(?!\\w)',
