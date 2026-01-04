@@ -1,9 +1,54 @@
+
+
 <p align="center">
-<img src="https://github.com/lokalise/i18n-ally/blob/master/screenshots/full-logo-new.png?raw=true" alt="logo" width="450"/>
-</p>
+<img src="https://github.com/lokalise/i18n-ally/blob/main/screenshots/full-logo-new.png?raw=true" alt="logo" width="450"/>
+
+
+# Flutter GetX i18n Ally
+
+
+**Flutter GetX i18n Ally** 是基于 **i18n Ally** 二次开发的 VS Code 插件，专为 **Flutter GetX 多语言（i18n）方案**设计。
+插件在 **使用方式和交互体验上完全兼容原版 i18n Ally**，GetX 项目可无缝上手，无需额外学习成本。
+
+### ✨ 主要特性
+
+1. **GetX 框架支持**
+   - 在 VS Code 设置中，将 `flutter-getx-i18n-ally.enabledFrameworks` 添加 `flutter-getx`，即可启用 GetX 多语言支持。
+
+2. **自动提取 `.tr` Key**
+   - 自动扫描当前 Dart 文件，提取所有使用 `.tr` 的国际化 Key。
+   - 支持将 Key 一键翻译为多种语言。
+
+3. **多语言翻译进度可视化**
+   - 直观展示各语言的翻译状态：
+     - ✅ 已翻译
+     - ⬜ 空值
+     - ❌ 缺失翻译
+   - 支持 **一键补全所有缺失翻译**。
+
+4. **AI 自动翻译支持**
+   - 内置多种翻译引擎：
+     - Google
+     - OpenAI
+     - 百度翻译
+   - 可在设置中自由选择翻译引擎，并配置对应的 API Key。
+
+5. **灵活的语言文件路径配置**
+   - 使用 `flutter-getx-i18n-ally.localesPaths` 指定 GetX 多语言文件所在目录。
+
+6. **可视化多语言管理界面**
+   - 提供图形化界面，集中管理所有语言与翻译内容，提升维护效率。
+
+### 🎯 适用场景
+
+- 使用 **Flutter + GetX** 的多语言项目
+- 希望获得与 **i18n Ally 一致体验** 的 GetX 国际化开发者
+- 需要 **批量翻译 / AI 自动补全翻译** 的团队或个人开发者
+
+---
 
 <p align='center'>
-<a href="https://github.com/lokalise/i18n-ally/blob/master/README.md">English</a> | 简体中文
+<a href="https://github.com/sqzxcv/flutter-getx-i18n-ally/blob/master/README.md">English</a> | 简体中文
 </p>
 
 <p align="center">

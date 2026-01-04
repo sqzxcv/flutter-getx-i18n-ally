@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/lokalise/flutter-getx-i18n-ally"
+    "url": "https://github.com/sqzxcv/flutter-getx-i18n-ally"
   },
   "main": "./dist/extension",
   "scripts": {
@@ -181,8 +181,8 @@
     "onLanguage:svelte"
   ],
   "icon": "res/logo.png",
-  "homepage": "https://github.com/lokalise/flutter-getx-i18n-ally",
-  "bugs": "https://github.com/lokalise/flutter-getx-i18n-ally/issues",
+  "homepage": "https://github.com/sqzxcv/flutter-getx-i18n-ally",
+  "bugs": "https://github.com/sqzxcv/flutter-getx-i18n-ally/issues",
   "contributes": {
     "commands": [
       {
@@ -1257,12 +1257,12 @@
         "flutter-getx-i18n-ally.extract.parsers.html": {
           "type": "object",
           "default": {},
-          "description": "Parser options for extracting HTML, see https://github.com/lokalise/flutter-getx-i18n-ally/blob/master/src/extraction/parsers/options.ts"
+          "description": "Parser options for extracting HTML, see https://github.com/sqzxcv/flutter-getx-i18n-ally/blob/master/src/extraction/parsers/options.ts"
         },
         "flutter-getx-i18n-ally.extract.parsers.babel": {
           "type": "object",
           "default": {},
-          "description": "Parser options for extracting JS/TS/JSX/TSX, see https://github.com/lokalise/flutter-getx-i18n-ally/blob/master/src/extraction/parsers/options.ts"
+          "description": "Parser options for extracting JS/TS/JSX/TSX, see https://github.com/sqzxcv/flutter-getx-i18n-ally/blob/master/src/extraction/parsers/options.ts"
         },
         "flutter-getx-i18n-ally.extract.autoDetect": {
           "type": "boolean",

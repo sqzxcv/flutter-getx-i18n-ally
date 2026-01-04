@@ -29,17 +29,29 @@ class FlutterGetXFramework extends Framework {
   // Regex patterns for GetX .tr usage
   // for visualize the regex, you can use https://regexper.com/
   usageMatchRegex = [
-    // Match 'key'.tr or "key".tr (simple .tr)
-    '[\'"`](.*?)[\'"`]\\.tr(?!\\w)',
+    // Match triple-quoted strings (highest priority - Dart multiline strings)
+    // Must come first to prevent single/double quote patterns from matching inside
+    'r?"""([\\s\\S]*?)"""\\.tr(?!\\w)',
+    'r?"""([\\s\\S]*?)"""\\.trParams\\s*\\(',
+    'r?"""([\\s\\S]*?)"""\\.trPlural\\s*\\(',
+    'r?"""([\\s\\S]*?)"""\\.trPluralParams\\s*\\(',
 
-    // Match 'key'.trParams({...})
-    '[\'"`](.*?)[\'"`]\\.trParams\\s*\\(',
+    "r?'''([\\s\\S]*?)'''\\.tr(?!\\w)",
+    "r?'''([\\s\\S]*?)'''\\.trParams\\s*\\(",
+    "r?'''([\\s\\S]*?)'''\\.trPlural\\s*\\(",
+    "r?'''([\\s\\S]*?)'''\\.trPluralParams\\s*\\(",
 
-    // Match 'key'.trPlural(...)
-    '[\'"`](.*?)[\'"`]\\.trPlural\\s*\\(',
+    // Match 'key'.tr - single quoted strings followed by .tr methods
+    "r?'([^']*)'\\.tr(?!\\w)",
+    "r?'([^']*)'\\.trParams\\s*\\(",
+    "r?'([^']*)'\\.trPlural\\s*\\(",
+    "r?'([^']*)'\\.trPluralParams\\s*\\(",
 
-    // Match 'key'.trPluralParams(...)
-    '[\'"`](.*?)[\'"`]\\.trPluralParams\\s*\\(',
+    // Match "key".tr - double quoted strings followed by .tr methods
+    'r?"([^"]*)"\\.tr(?!\\w)',
+    'r?"([^"]*)"\\.trParams\\s*\\(',
+    'r?"([^"]*)"\\.trPlural\\s*\\(',
+    'r?"([^"]*)"\\.trPluralParams\\s*\\(',
 
     // Match LocaleKeys.xxx.tr pattern
     'LocaleKeys\\.({key})\\.tr(?!\\w)',

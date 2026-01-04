@@ -2,8 +2,53 @@
 <img src="https://github.com/lokalise/i18n-ally/blob/main/screenshots/full-logo-new.png?raw=true" alt="logo" width="450"/>
 </p>
 
+# Flutter GetX i18n Ally
+
+**Flutter GetX i18n Ally** is a VS Code extension built on top of **i18n Ally**, specifically designed to support **Flutter GetX internationalization (i18n)**.
+
+It provides the **same usage patterns and user experience as the original i18n Ally**, allowing GetX projects to integrate seamlessly with zero learning curve.
+
+### ✨ Key Features
+
+1. **GetX Framework Support**
+   - Enable GetX support by adding `flutter-getx` to
+     `flutter-getx-i18n-ally.enabledFrameworks` in VS Code settings.
+
+2. **Automatic `.tr` Key Extraction**
+   - Scans the current Dart file and extracts all GetX `.tr` localization keys.
+   - Supports one-click translation into multiple languages.
+
+3. **Translation Progress Overview**
+   - Clearly displays translation status for each language:
+     - ✅ Translated
+     - ⬜ Empty
+     - ❌ Missing
+   - Allows **batch translation of all missing entries**.
+
+4. **AI-Powered Auto Translation**
+   - Supports multiple translation engines, including:
+     - Google
+     - OpenAI
+     - Baidu
+     - and more
+   - Translation engine and API keys can be configured in settings.
+
+5. **Custom Locales Path Configuration**
+   - Use `flutter-getx-i18n-ally.localesPaths` to specify the directory of GetX locale files.
+
+6. **Visual Language Management UI**
+   - Manage all languages and translations through an intuitive graphical interface.
+
+### 🎯 Ideal For
+
+- Flutter projects using **GetX** for localization
+- Developers who want **i18n Ally–style workflows** with GetX
+- Teams looking for **AI-assisted and batch translation** solutions
+
+---
+
 <p align='center'>
-English | <a href="https://github.com/lokalise/i18n-ally/blob/main/README.zh-CN.md">简体中文</a>
+English | <a href="https://github.com/sqzxcv/flutter-getx-i18n-ally/blob/main/README.zh-CN.md">简体中文</a>
 </p>
 
 <p align="center">

@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 3.14.1 (2026-01-05)
+
+* support flutter getx framework
+
 ### 3.13.3 (2026-01-01)
 
 
