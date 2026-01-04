@@ -2,6 +2,10 @@
 <img src="https://github.com/lokalise/i18n-ally/blob/main/screenshots/full-logo-new.png?raw=true" alt="logo" width="450"/>
 </p>
 
+<p align='center'>
+English | <a href="https://github.com/sqzxcv/flutter-getx-i18n-ally/blob/main/README.zh-CN.md">简体中文</a>
+</p>
+
 # Flutter GetX i18n Ally
 
 **Flutter GetX i18n Ally** is a VS Code extension built on top of **i18n Ally**, specifically designed to support **Flutter GetX internationalization (i18n)**.
@@ -46,10 +50,6 @@ It provides the **same usage patterns and user experience as the original i18n A
 - Teams looking for **AI-assisted and batch translation** solutions
 
 ---
-
-<p align='center'>
-English | <a href="https://github.com/sqzxcv/flutter-getx-i18n-ally/blob/main/README.zh-CN.md">简体中文</a>
-</p>
 
 <p align="center">
 <a href="https://marketplace.visualstudio.com/items?itemName=lokalise.i18n-ally" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/v/lokalise.i18n-ally?color=blue&amp;label=VS%20Code%20Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" /></a>

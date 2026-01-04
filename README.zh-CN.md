@@ -3,6 +3,10 @@
 <p align="center">
 <img src="https://github.com/lokalise/i18n-ally/blob/main/screenshots/full-logo-new.png?raw=true" alt="logo" width="450"/>
 
+<p align='center'>
+<a href="https://github.com/sqzxcv/flutter-getx-i18n-ally/blob/master/README.md">English</a> | 简体中文
+</p>
+
 
 # Flutter GetX i18n Ally
 
@@ -46,10 +50,6 @@
 - 需要 **批量翻译 / AI 自动补全翻译** 的团队或个人开发者
 
 ---
-
-<p align='center'>
-<a href="https://github.com/sqzxcv/flutter-getx-i18n-ally/blob/master/README.md">English</a> | 简体中文
-</p>
 
 <p align="center">
 <a href="https://marketplace.visualstudio.com/items?itemName=lokalise.i18n-ally" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/v/lokalise.i18n-ally.svg?color=blue&amp;label=VS%20Code%20Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" /></a>
