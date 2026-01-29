@@ -4,7 +4,7 @@ import { Config } from "~/core";
 
 export default class OpenAITranslate extends TranslateEngine {
   apiRoot = "https://api.openai.com";
-  systemPrompt = "You are a professional translation engine. Please translate text without explanation.";
+  systemPrompt = "You are a professional translation engine. Only output the translated text directly, without any explanation, arrow, original text, or additional formatting.";
 
   async translate(options: TranslateOptions) {
     let apiKey = Config.openaiApiKey;
@@ -65,7 +65,7 @@ export default class OpenAITranslate extends TranslateEngine {
     const sourceLang = options.from;
     const targetLang = options.to;
 
-    let generatedUserPrompt = `translate from ${sourceLang} to ${targetLang}:\n\n${options.text}`;
+    let generatedUserPrompt = `Translate the following text from ${sourceLang} to ${targetLang}. Only return the translated text, nothing else:\n\n${options.text}`;
 
     return generatedUserPrompt;
   }

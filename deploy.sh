@@ -1,0 +1,1 @@
+yarn vscode:publish:patch
